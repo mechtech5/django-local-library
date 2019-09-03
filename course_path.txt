@@ -1,0 +1,43 @@
+Django Tutorial Part 2: Creating a skeleton website
+Use Django's tools to create a skeleton website and application. Start and stop the development server.
+
+Django Tutorial Part 3: Using models
+Create models to represent your application's data.
+
+Django Tutorial Part 4: Django admin site
+Use the Django admin site to populate your site's data.
+
+Django Tutorial Part 5: Creating our home page
+Create views to retrieve specific data in response to different requests, and templates to render the data as HTML to be displayed in the browser.
+
+Django Tutorial Part 6: Generic list and detail views
+Create mappers to associate different URL patterns with specific views.
+
+
+Django Tutorial Part 7: Sessions framework
+Django Tutorial Part 8: User authentication and 
+permissions
+Add user authorization and sessions to control site behaviour and access.
+
+Django Tutorial Part 9: Working with forms
+Work with forms.
+
+Django Tutorial Part 10: Testing a Django web application
+Write test code for your app.
+
+Django Tutorial Part 11: Deploying Django to production
+Use Django's security effectively.
+Deploy your application to production.
+
+##For Postgres
+DATABASES = {
+    'default': {
+        #'ENGINE': 'django.db.backends.sqlite3',
+        #'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'django_polls',
+        'USER': 'postgres',
+        'PASSWORD': 'mechtech5',
+        'HOST': '127.0.0.1',
+        'PORT': '5432'
+    }
