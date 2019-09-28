@@ -1,0 +1,37 @@
+##Django Tutorial Part 3: Using models
+Creating Models:
+https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Models
+
+Genre
+	id
+	name
+
+Language
+	id
+	name
+
+Book
+	id
+	title
+	author(FK)
+	summary
+	isbn
+	genre(FK)
+	language(FK)
+
+BookInstance
+	id(PK)
+	book(FK)
+	imprint
+	due_back
+	status
+
+Author
+	id
+	first_name
+	last_name
+	date_of_birth
+	date_of_death
+
+
+##Django Tutorial Part 4: Django admin site
